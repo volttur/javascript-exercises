@@ -1,9 +1,5 @@
 const reverseString = function(str) {
-    strArr = str.split('');
-    strArr.reverse();
-    str = strArr.join();
-    str = str.replace(/,/g, '');
-    return str;
+    return str.split('').reverse().join('');
 };
 
 // Do not edit below this line
